@@ -12,6 +12,8 @@
 		BB81FE251E8A11A500D56823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE231E8A11A500D56823 /* Main.storyboard */; };
 		BB81FE271E8A11A500D56823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE261E8A11A500D56823 /* Assets.xcassets */; };
 		BB81FE2A1E8A11A500D56823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */; };
+		BB81FE321E8A128E00D56823 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE311E8A128E00D56823 /* PaymentType.swift */; };
+		BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BB81FE261E8A11A500D56823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB81FE291E8A11A500D56823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB81FE2B1E8A11A500D56823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB81FE311E8A128E00D56823 /* PaymentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				BB81FE261E8A11A500D56823 /* Assets.xcassets */,
 				BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */,
 				BB81FE2B1E8A11A500D56823 /* Info.plist */,
+				BB81FE311E8A128E00D56823 /* PaymentType.swift */,
+				BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */,
 			);
 			path = FunctionalSwiftDemo;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB81FE221E8A11A500D56823 /* ViewController.swift in Sources */,
+				BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */,
+				BB81FE321E8A128E00D56823 /* PaymentType.swift in Sources */,
 				BB81FE201E8A11A500D56823 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
