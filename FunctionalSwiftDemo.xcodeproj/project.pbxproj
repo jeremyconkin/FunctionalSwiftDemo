@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BB81FE201E8A11A500D56823 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE1F1E8A11A500D56823 /* AppDelegate.swift */; };
-		BB81FE221E8A11A500D56823 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE211E8A11A500D56823 /* ViewController.swift */; };
+		BB81FE221E8A11A500D56823 /* ShowPaymentTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE211E8A11A500D56823 /* ShowPaymentTypesViewController.swift */; };
 		BB81FE251E8A11A500D56823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE231E8A11A500D56823 /* Main.storyboard */; };
 		BB81FE271E8A11A500D56823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE261E8A11A500D56823 /* Assets.xcassets */; };
 		BB81FE2A1E8A11A500D56823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		BB81FE1C1E8A11A400D56823 /* FunctionalSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunctionalSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB81FE1F1E8A11A500D56823 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB81FE211E8A11A500D56823 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB81FE211E8A11A500D56823 /* ShowPaymentTypesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPaymentTypesViewController.swift; sourceTree = "<group>"; };
 		BB81FE241E8A11A500D56823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB81FE261E8A11A500D56823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB81FE291E8A11A500D56823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 				BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */,
 				BB81FE371E8A204800D56823 /* PaymentMethodType.swift */,
 				BB81FE351E8A1F5E00D56823 /* Result.swift */,
-				BB81FE211E8A11A500D56823 /* ViewController.swift */,
+				BB81FE211E8A11A500D56823 /* ShowPaymentTypesViewController.swift */,
 			);
 			path = FunctionalSwiftDemo;
 			sourceTree = "<group>";
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB81FE221E8A11A500D56823 /* ViewController.swift in Sources */,
+				BB81FE221E8A11A500D56823 /* ShowPaymentTypesViewController.swift in Sources */,
 				BB81FE361E8A1F5E00D56823 /* Result.swift in Sources */,
 				BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */,
 				BB81FE321E8A128E00D56823 /* CreditCardType.swift in Sources */,

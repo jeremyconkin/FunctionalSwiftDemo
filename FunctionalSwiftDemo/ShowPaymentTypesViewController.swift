@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ShowPaymentTypesViewController.swift
 //  FunctionalSwiftDemo
 //
 //  Created by Jeremy Conkin on 3/27/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ShowPaymentTypesViewController: UIViewController {
 
     /// Shows info about a payment method
     @IBOutlet weak var paymentInfoView1: PaymentInfoView!
