@@ -9,6 +9,13 @@
 import Foundation
 import UIKit
 
+/// Credit card numbers that pass the regular expression for each type
+let testVisa =              "4111111111111111"
+let testMasterCard =        "5555555555554444"
+let testAmericanExpress =   "378282246310005"
+let testDiscover =          "6011111111111117"
+let testBadCardNumber =     "0000000000000000"
+
 /// Types of credit cards supported by this application
 ///
 /// - Discover: Discover card

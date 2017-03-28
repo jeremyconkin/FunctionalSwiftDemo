@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+/// View that shows content about a payment method
 class PaymentInfoView: UIView {
 
     // Shows a credit card image

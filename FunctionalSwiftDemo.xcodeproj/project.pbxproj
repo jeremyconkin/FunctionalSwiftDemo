@@ -16,6 +16,7 @@
 		BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */; };
 		BB81FE361E8A1F5E00D56823 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE351E8A1F5E00D56823 /* Result.swift */; };
 		BB81FE381E8A204800D56823 /* PaymentMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE371E8A204800D56823 /* PaymentMethodType.swift */; };
+		BB81FE3A1E8A28B600D56823 /* PaymentMethodTypeFactories.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE391E8A28B600D56823 /* PaymentMethodTypeFactories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfoView.swift; sourceTree = "<group>"; };
 		BB81FE351E8A1F5E00D56823 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		BB81FE371E8A204800D56823 /* PaymentMethodType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodType.swift; sourceTree = "<group>"; };
+		BB81FE391E8A28B600D56823 /* PaymentMethodTypeFactories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodTypeFactories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BB81FE371E8A204800D56823 /* PaymentMethodType.swift */,
 				BB81FE351E8A1F5E00D56823 /* Result.swift */,
 				BB81FE211E8A11A500D56823 /* ShowPaymentTypesViewController.swift */,
+				BB81FE391E8A28B600D56823 /* PaymentMethodTypeFactories.swift */,
 			);
 			path = FunctionalSwiftDemo;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				BB81FE221E8A11A500D56823 /* ShowPaymentTypesViewController.swift in Sources */,
 				BB81FE361E8A1F5E00D56823 /* Result.swift in Sources */,
+				BB81FE3A1E8A28B600D56823 /* PaymentMethodTypeFactories.swift in Sources */,
 				BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */,
 				BB81FE321E8A128E00D56823 /* CreditCardType.swift in Sources */,
 				BB81FE381E8A204800D56823 /* PaymentMethodType.swift in Sources */,

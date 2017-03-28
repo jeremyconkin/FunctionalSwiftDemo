@@ -27,12 +27,21 @@ public enum Result<T> {
         }
     }
 
-    func flat_map<U>(_ f: (T) -> Result<U>) -> Result<U> {
+    func flatMap<U>(_ f: (T) -> Result<U>) -> Result<U> {
         switch self {
         case .Success(let value):
             return f(value)
         case .Failure(let error):
             return Result<U>.Failure(error)
         }
+    }
+}
+
+func isSuccessful<T>(_ result: Result<T>) -> Bool {
+    switch result {
+    case .Success(_):
+        return true
+    default:
+        return false
     }
 }
