@@ -15,14 +15,16 @@ import UIKit
 /// - Amex: American Express
 /// - Mastercard: Mastercard
 /// - Visa: Visa
-enum CreditCardType {
+public enum CreditCardType {
     case Discover
     case Amex
     case Mastercard
     case Visa
 }
 
-class OOP_PaymentMethod {
+// MARK: OOP
+/// Model that holds payment information in an OOP paradigm
+public class OOP_PaymentMethod {
 
     /// Type of card used for payment
     let creditCardType: CreditCardType
@@ -57,3 +59,62 @@ class OOP_PaymentMethod {
         return (cardDescription, UIImage(named: cardImageName))
     }
 }
+
+// MARK: Functional
+
+/// Get the description of a credit card type
+///
+/// - Parameter cardType: Card type to describe
+/// - Returns: Description pretty print string
+public func prettyPrintName(cardType: CreditCardType) -> String {
+
+    switch cardType {
+    case .Discover:
+        return "Discover"
+    case .Amex:
+        return "Amex"
+    case .Mastercard:
+        return "Mastercard"
+    case .Visa:
+        return "Visa"
+    }
+}
+
+/// Get the image corresponding to a card type
+///
+/// - Parameter cardType: Card type
+/// - Returns: Image for the given card type
+public func cardImage(cardType: CreditCardType) -> UIImage {
+
+    switch cardType {
+    case .Discover:
+        return #imageLiteral(resourceName: "cc_discover")
+    case .Amex:
+        return #imageLiteral(resourceName: "cc_amex")
+    case .Mastercard:
+        return #imageLiteral(resourceName: "cc_mastercard")
+    case .Visa:
+        return #imageLiteral(resourceName: "cc_visa")
+    }
+}
+
+public typealias PaymentDisplayInformation = (description: String, image: UIImage)
+
+extension CreditCardType {
+
+    /// Pretty print name of the card type
+    public var name: String {
+        return prettyPrintName(cardType: self)
+    }
+
+    /// Icon image for the card type
+    public var icon: UIImage {
+        return cardImage(cardType:self)
+    }
+
+    /// Card type name and image
+    public var displayInformation: PaymentDisplayInformation {
+        return PaymentDisplayInformation(name, icon)
+    }
+}
+

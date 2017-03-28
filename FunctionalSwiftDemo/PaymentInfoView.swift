@@ -26,4 +26,13 @@ class PaymentInfoView: UIView {
         paymentMethodDescriptionLabel.text = paymentInformation.0
         paymentMethodImageView.image = paymentInformation.1
     }
+
+    /// Show the info about the given payment method within the subviews of this view
+    ///
+    /// - Parameter paymentDisplayData: Payment view data serving as a model
+    public func showPaymentInformation(paymentDisplayData: PaymentDisplayInformation) {
+
+        paymentMethodDescriptionLabel.text = paymentDisplayData.description
+        paymentMethodImageView.image = paymentDisplayData.image
+    }
 }
