@@ -14,7 +14,7 @@ import Foundation
 ///
 /// - Success: Success contains the value
 /// - Failure: Failure contains the error
-enum Result<T> {
+public enum Result<T> {
     case Success(T)
     case Failure(NSError)
 

@@ -12,9 +12,10 @@
 		BB81FE251E8A11A500D56823 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE231E8A11A500D56823 /* Main.storyboard */; };
 		BB81FE271E8A11A500D56823 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE261E8A11A500D56823 /* Assets.xcassets */; };
 		BB81FE2A1E8A11A500D56823 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */; };
-		BB81FE321E8A128E00D56823 /* PaymentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE311E8A128E00D56823 /* PaymentType.swift */; };
+		BB81FE321E8A128E00D56823 /* CreditCardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE311E8A128E00D56823 /* CreditCardType.swift */; };
 		BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */; };
 		BB81FE361E8A1F5E00D56823 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE351E8A1F5E00D56823 /* Result.swift */; };
+		BB81FE381E8A204800D56823 /* PaymentMethodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81FE371E8A204800D56823 /* PaymentMethodType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +26,10 @@
 		BB81FE261E8A11A500D56823 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB81FE291E8A11A500D56823 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB81FE2B1E8A11A500D56823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB81FE311E8A128E00D56823 /* PaymentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentType.swift; sourceTree = "<group>"; };
+		BB81FE311E8A128E00D56823 /* CreditCardType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardType.swift; sourceTree = "<group>"; };
 		BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentInfoView.swift; sourceTree = "<group>"; };
 		BB81FE351E8A1F5E00D56823 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		BB81FE371E8A204800D56823 /* PaymentMethodType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,14 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				BB81FE1F1E8A11A500D56823 /* AppDelegate.swift */,
-				BB81FE211E8A11A500D56823 /* ViewController.swift */,
-				BB81FE231E8A11A500D56823 /* Main.storyboard */,
 				BB81FE261E8A11A500D56823 /* Assets.xcassets */,
-				BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */,
+				BB81FE311E8A128E00D56823 /* CreditCardType.swift */,
 				BB81FE2B1E8A11A500D56823 /* Info.plist */,
-				BB81FE311E8A128E00D56823 /* PaymentType.swift */,
+				BB81FE281E8A11A500D56823 /* LaunchScreen.storyboard */,
+				BB81FE231E8A11A500D56823 /* Main.storyboard */,
 				BB81FE331E8A176A00D56823 /* PaymentInfoView.swift */,
+				BB81FE371E8A204800D56823 /* PaymentMethodType.swift */,
 				BB81FE351E8A1F5E00D56823 /* Result.swift */,
+				BB81FE211E8A11A500D56823 /* ViewController.swift */,
 			);
 			path = FunctionalSwiftDemo;
 			sourceTree = "<group>";
@@ -149,7 +152,8 @@
 				BB81FE221E8A11A500D56823 /* ViewController.swift in Sources */,
 				BB81FE361E8A1F5E00D56823 /* Result.swift in Sources */,
 				BB81FE341E8A176A00D56823 /* PaymentInfoView.swift in Sources */,
-				BB81FE321E8A128E00D56823 /* PaymentType.swift in Sources */,
+				BB81FE321E8A128E00D56823 /* CreditCardType.swift in Sources */,
+				BB81FE381E8A204800D56823 /* PaymentMethodType.swift in Sources */,
 				BB81FE201E8A11A500D56823 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

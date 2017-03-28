@@ -16,11 +16,15 @@ class ViewController: UIViewController {
     /// Shows info about a payment method
     @IBOutlet weak var paymentInfoView2: PaymentInfoView!
 
+    /// Shows info about a payment method
+    @IBOutlet weak var paymentInfoView3: PaymentInfoView!
+
     override func viewDidLoad() {
 
         super.viewDidLoad()
         showPaymentMethod1()
         showPaymentMethod2()
+        showPaymentMethod3()
     }
 
     private func showPaymentMethod1() {
@@ -33,6 +37,12 @@ class ViewController: UIViewController {
     private func showPaymentMethod2() {
 
         paymentInfoView2.showPaymentInformation(paymentDisplayData: CreditCardType.Discover.displayInformation)
+    }
+
+    private func showPaymentMethod3() {
+
+        paymentInfoView3.showPaymentMethodType(paymentMethodData: PaymentMethodType.BankAccount().displayInformation)
+//        paymentInfoView3.showPaymentMethodType(paymentMethodData: PaymentMethodType.CreditCard(.Amex).displayInformation)
     }
 }
 

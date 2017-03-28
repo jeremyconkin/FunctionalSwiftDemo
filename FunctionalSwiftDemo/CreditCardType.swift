@@ -98,7 +98,8 @@ public func cardImage(cardType: CreditCardType) -> UIImage {
     }
 }
 
-public typealias PaymentDisplayInformation = (description: String, image: UIImage)
+/// Serves as a view model for credit card types
+public typealias CreditCardDisplayInformation = (description: String, image: UIImage)
 
 extension CreditCardType {
 
@@ -113,8 +114,8 @@ extension CreditCardType {
     }
 
     /// Card type name and image
-    public var displayInformation: PaymentDisplayInformation {
-        return PaymentDisplayInformation(name, icon)
+    public var displayInformation: CreditCardDisplayInformation {
+        return CreditCardDisplayInformation(name, icon)
     }
 }
 

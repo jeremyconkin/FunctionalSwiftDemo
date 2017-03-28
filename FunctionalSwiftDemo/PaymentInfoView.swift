@@ -30,9 +30,27 @@ class PaymentInfoView: UIView {
     /// Show the info about the given payment method within the subviews of this view
     ///
     /// - Parameter paymentDisplayData: Payment view data serving as a model
-    public func showPaymentInformation(paymentDisplayData: PaymentDisplayInformation) {
+    public func showPaymentInformation(paymentDisplayData: CreditCardDisplayInformation) {
 
         paymentMethodDescriptionLabel.text = paymentDisplayData.description
         paymentMethodImageView.image = paymentDisplayData.image
+    }
+
+    /// Show the info about payment types beyond just credit cards
+    ///
+    /// - Parameter paymentMethodData: Type of payment
+    public func showPaymentMethodType(paymentMethodData: PaymentTypeDisplayInformation) {
+
+        paymentMethodDescriptionLabel.text = paymentMethodData.description
+        paymentMethodImageView.image = {
+            switch (paymentMethodData.imageResult) {
+            case .Success(let image):
+                return image
+            case .Failure(let error):
+                print("Image Fetch Error: \(error.domain)")
+                return nil
+            }
+
+        }()
     }
 }
